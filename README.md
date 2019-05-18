@@ -8,6 +8,8 @@
 
 **springCloud脚手架**
 
+![1558202796957](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1558202796957.png)
+
 #### 安装教程
 
 **下载项目，配好GIT环境，配好JAVA环境，配好Maven环境，配好RabbitMQ环境，将代码导入IDE即可运行。**
