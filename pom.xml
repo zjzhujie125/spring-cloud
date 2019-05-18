@@ -17,7 +17,7 @@
         <module>sc-eureka-client</module>
         <!-- 3.Ribbon 服务调用，负载均衡 -->
         <module>sc-ribbon</module>
-        <!-- 4.feign 服务调用代理，链路追踪客户端zipkin，断路器Hystrix，断路器监控，聚合监控 -->
+        <!-- 4.feign 服务调用代理，链路追踪客户端zipkin，断路器Hystrix、断路器监控、聚合监控，配置中心客户端，BUS -->
         <module>sc-feign</module>
         <!-- 5.hystrix-dashboard 断路器监控面板 -->
         <module>sc-hystrix-dashboard</module>

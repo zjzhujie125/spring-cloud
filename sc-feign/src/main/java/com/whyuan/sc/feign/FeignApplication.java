@@ -28,6 +28,10 @@ import java.util.Scanner;
 public class FeignApplication {
 
     public static void main(String[] args) {
+        //判断 rabiitMQ 是否启动，未启动关闭，用于消息总线动态刷新配置信息
+        int rabbitMQPort = 5672;
+        PortUtil.checkPort(rabbitMQPort, "rabbitMQ服务", true);
+
         System.out.println("请输入端口号, 推荐  4444 、 4445 、 4446");
         Scanner scanner = new Scanner(System.in);
         int port = scanner.nextInt();

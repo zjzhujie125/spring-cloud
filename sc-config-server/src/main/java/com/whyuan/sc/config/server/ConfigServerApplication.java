@@ -21,7 +21,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 public class ConfigServerApplication {
 
     public static void main(String[] args) {
-        //7777 这个端口是默认的，就不要修改了。
+        //8888 这个端口是默认的，就不要修改了。
         int port = 8888;
         PortUtil.checkPort(port, "ConfigServer 配置中心服务", false);
         new SpringApplicationBuilder(ConfigServerApplication.class).properties("server.port=" + port).run(args);

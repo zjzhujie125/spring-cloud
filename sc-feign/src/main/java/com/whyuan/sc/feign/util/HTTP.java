@@ -51,6 +51,7 @@ public class HTTP {
         connection.setRequestMethod("POST");
         connection.setDoOutput(true);
         connection.setRequestProperty("Charset", charset);
+        connection.setRequestProperty("Content-Type", "application/json; charset=utf-8");//设置请求头，防止415
         connection.setConnectTimeout(30000);
         connection.setReadTimeout(30000);
         connection.connect();
