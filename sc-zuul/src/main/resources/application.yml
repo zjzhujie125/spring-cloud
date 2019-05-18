@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: sc-zuul
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+zuul:
+  routes:
+    api-a:
+      path: /api-data/**
+      serviceId: sc-eureka-client
+    api-b:
+      path: /api-view/**
+      serviceId: sc-feign

@@ -1,0 +1,13 @@
+spring:
+  application.name: sc-turbine
+
+turbine:
+  aggregator:
+    clusterConfig: default   
+  appConfig: sc-feign  ### 配置Eureka中的serviceId列表，表明监控哪些服务
+  clusterNameExpression: new String("default")
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
