@@ -20,43 +20,43 @@
 
 **操作系统：**
 
-​	**Windows**
+- **Windows**
 
 **电脑内存：**
 
-​	**16G+**
+- **16G+**
 
 **远程仓库：**
 
-​	**码云**<https://gitee.com/>
+- **码云**<https://gitee.com/>
 
 **开发工具：**
 
-​	**IntelliJ IDEA Maven项目**
+- **IntelliJ IDEA Maven项目**
 
 **JDK版本：**
 
-​	**JDK1.8**
+- **JDK1.8**
 
 **Maven版本：**
 
-​	**apache-maven-3.5.2**
+- **apache-maven-3.5.2**
 
 **RabbitMQ版本：**
 
-​	**rabbitmq_server-3.6.5**
+- **rabbitmq_server-3.6.5**
 
 **zipkin服务端：**
 
-​	**zipkin-server-2.10.1****
+- **zipkin-server-2.10.1**
 
 **spring-boot：**
 
-​	**2.0.3.RELEASE**
+- **2.0.3.RELEASE**
 
 **spring-cloud：**
 
-​	**Finchley.RELEASE**
+- **Finchley.RELEASE**
 
 # -------------------启动顺序及单元测试指引
 
@@ -435,7 +435,7 @@
 
   - ### 注解：@EnableZipkinServer
 
-- ## sc-服务容错断路器hystrix：.
+- ## sc-服务容错断路器hystrix：
 
   - ### 依赖：spring-cloud-starter-netflix-hystrix	
 
